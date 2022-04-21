@@ -1,0 +1,2 @@
+# EasyPay
+Its an Android Mobile Application created by me for Online Payment which is having several functionalities where a user can send and receive money via an dummy bank with the help of wallet. It also has an OTP based Authentication at the starting of the app where everytime the user logs in he need to use the OTP and then he can make as many as transactions as he wants. initially i have disabled the OTP, you can enable it manually as needed.
