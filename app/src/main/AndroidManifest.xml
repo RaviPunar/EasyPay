@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mobilevarificationotp">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +12,39 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MobileVarificationOTP">
+        <activity
+            android:name=".userlist"
+            android:exported="false" />
+        <activity
+            android:name=".addoption"
+            android:exported="false" />
+        <activity
+            android:name=".Card"
+            android:exported="false" />
+        <activity
+            android:name=".Transaction"
+            android:exported="false" />
+        <activity
+            android:name=".signup"
+            android:exported="false" />
+        <activity
+            android:name=".Transaction_Successful"
+            android:exported="false" />
+        <activity
+            android:name=".Under_Progress"
+            android:exported="false" />
+        <activity
+            android:name=".recharge"
+            android:exported="false" />
+        <activity
+            android:name=".paymoney"
+            android:exported="false" />
+        <activity
+            android:name=".bank_transfer"
+            android:exported="false" />
+        <activity
+            android:name=".wallet_addmoney"
+            android:exported="false" />
         <activity
             android:name=".dashbord"
             android:exported="false" />
@@ -24,6 +60,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

@@ -3,11 +3,41 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Mahapatra/Desktop/Android Studio/MobileVarification/app/src/main/res/drawable/backgroundbox.xml" value="0.23333333333333334" />
-        <entry key="..\:/Users/Mahapatra/Desktop/Android Studio/MobileVarification/app/src/main/res/drawable/backgroundbutton.xml" value="0.22974358974358974" />
-        <entry key="..\:/Users/Mahapatra/Desktop/Android Studio/MobileVarification/app/src/main/res/layout/activity_dashbord.xml" value="0.19293478260869565" />
-        <entry key="..\:/Users/Mahapatra/Desktop/Android Studio/MobileVarification/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/Mahapatra/Desktop/Android Studio/MobileVarification/app/src/main/res/layout/activity_varification_otp2.xml" value="0.2" />
+        <entry key="..\:/Users/Mahapatra/Desktop/EasyPay/EasyPay/app/src/main/res/layout/activity_bank_transfer.xml" value="0.18" />
+        <entry key="..\:/Users/Mahapatra/Desktop/EasyPay/EasyPay/app/src/main/res/layout/activity_paymoney.xml" value="0.11413043478260869" />
+        <entry key="..\:/Users/Mahapatra/Desktop/EasyPay/EasyPay/app/src/main/res/layout/activity_recharge.xml" value="0.1082427536231884" />
+        <entry key="..\:/Users/Mahapatra/Desktop/EasyPay/EasyPay/app/src/main/res/layout/activity_wallet_addmoney.xml" value="0.1082427536231884" />
+        <entry key="..\:/Users/ravip/AndroidStudioProjects/EasyPay/EasyPay/app/src/main/res/drawable/circleimage.xml" value="0.26510416666666664" />
+        <entry key="..\:/Users/ravip/AndroidStudioProjects/EasyPay/EasyPay/app/src/main/res/drawable/shape3_form.xml" value="0.26510416666666664" />
+        <entry key="..\:/Users/ravip/AndroidStudioProjects/EasyPay/EasyPay/app/src/main/res/drawable/shape4_form.xml" value="0.26510416666666664" />
+        <entry key="..\:/Users/ravip/AndroidStudioProjects/EasyPay/EasyPay/app/src/main/res/drawable/shape5_form.xml" value="0.26510416666666664" />
+        <entry key="..\:/Users/ravip/AndroidStudioProjects/EasyPay/EasyPay/app/src/main/res/drawable/shape6_form.xml" value="0.26510416666666664" />
+        <entry key="..\:/Users/ravip/AndroidStudioProjects/EasyPay/EasyPay/app/src/main/res/drawable/shape7_form.xml" value="0.26510416666666664" />
+        <entry key="..\:/Users/ravip/AndroidStudioProjects/EasyPay/EasyPay/app/src/main/res/drawable/shape_circle.xml" value="0.26510416666666664" />
+        <entry key="..\:/Users/ravip/AndroidStudioProjects/EasyPay/EasyPay/app/src/main/res/font/aclonica.xml" value="0.2791666666666667" />
+        <entry key="..\:/Users/ravip/AndroidStudioProjects/EasyPay/EasyPay/app/src/main/res/font/advent_pro_medium.xml" value="0.2791666666666667" />
+        <entry key="..\:/Users/ravip/AndroidStudioProjects/EasyPay/EasyPay/app/src/main/res/font/allerta.xml" value="0.2791666666666667" />
+        <entry key="..\:/Users/ravip/AndroidStudioProjects/EasyPay/EasyPay/app/src/main/res/font/bevan.xml" value="0.2791666666666667" />
+        <entry key="..\:/Users/ravip/AndroidStudioProjects/EasyPay/EasyPay/app/src/main/res/layout/activity_addoption.xml" value="0.2" />
+        <entry key="..\:/Users/ravip/AndroidStudioProjects/EasyPay/EasyPay/app/src/main/res/layout/activity_bank_transfer.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/ravip/AndroidStudioProjects/EasyPay/EasyPay/app/src/main/res/layout/activity_card.xml" value="0.264" />
+        <entry key="..\:/Users/ravip/AndroidStudioProjects/EasyPay/EasyPay/app/src/main/res/layout/activity_dashbord.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/ravip/AndroidStudioProjects/EasyPay/EasyPay/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/ravip/AndroidStudioProjects/EasyPay/EasyPay/app/src/main/res/layout/activity_paymoney.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/ravip/AndroidStudioProjects/EasyPay/EasyPay/app/src/main/res/layout/activity_recharge.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/ravip/AndroidStudioProjects/EasyPay/EasyPay/app/src/main/res/layout/activity_signup.xml" value="0.2" />
+        <entry key="..\:/Users/ravip/AndroidStudioProjects/EasyPay/EasyPay/app/src/main/res/layout/activity_transaction.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/ravip/AndroidStudioProjects/EasyPay/EasyPay/app/src/main/res/layout/activity_transaction_successful.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/ravip/AndroidStudioProjects/EasyPay/EasyPay/app/src/main/res/layout/activity_userlist.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/ravip/AndroidStudioProjects/EasyPay/EasyPay/app/src/main/res/layout/activity_varification_otp2.xml" value="0.4" />
+        <entry key="..\:/Users/ravip/AndroidStudioProjects/EasyPay/EasyPay/app/src/main/res/layout/activity_wallet_addmoney.xml" value="0.24139492753623187" />
+        <entry key="..\:/Users/ravip/AndroidStudioProjects/EasyPay/EasyPay/app/src/main/res/layout/drawer_navigation_header.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/ravip/AndroidStudioProjects/EasyPay/EasyPay/app/src/main/res/layout/fragment_home.xml" value="0.24139492753623187" />
+        <entry key="..\:/Users/ravip/AndroidStudioProjects/EasyPay/EasyPay/app/src/main/res/layout/fragment_mall.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/ravip/AndroidStudioProjects/EasyPay/EasyPay/app/src/main/res/layout/fragment_wallet.xml" value="0.24139492753623187" />
+        <entry key="..\:/Users/ravip/AndroidStudioProjects/EasyPay/EasyPay/app/src/main/res/layout/item.xml" value="0.2" />
+        <entry key="..\:/Users/ravip/AndroidStudioProjects/EasyPay/EasyPay/app/src/main/res/menu/bottom_navigation.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/ravip/AndroidStudioProjects/EasyPay/EasyPay/app/src/main/res/menu/drawer_navigation.xml" value="0.24895833333333334" />
       </map>
     </option>
   </component>

@@ -1,8 +1,5 @@
 package com.example.mobilevarificationotp;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
@@ -14,6 +11,9 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.FirebaseException;
@@ -22,7 +22,6 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthProvider;
 
-import java.util.concurrent.Executor;
 import java.util.concurrent.TimeUnit;
 
 public class VarificationOtp2 extends AppCompatActivity {
@@ -30,7 +29,8 @@ public class VarificationOtp2 extends AppCompatActivity {
     String getotobackend;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_varification_otp2);
         final Button verifybuttonclick=findViewById(R.id.butttonotp);
@@ -41,10 +41,9 @@ public class VarificationOtp2 extends AppCompatActivity {
         inputnumber5=findViewById(R.id.inputotp5);
         inputnumber6=findViewById(R.id.inputotp6);
         TextView textView=(TextView) findViewById(R.id.text_mobile_show_number);
-        textView.setText(String.format("+91-%s", (Object) getIntent().getStringExtra("mobile")
-        ));
+        textView.setText(String.format("+91-%s", (Object) getIntent().getStringExtra("mobile")));
 
-
+        String mobile=getIntent().getStringExtra("mobile");
         getotobackend=getIntent().getStringExtra("backendotp");
         final ProgressBar progressBarverifyotp=findViewById(R.id.progressbar_verify_otp);
 
@@ -77,7 +76,9 @@ public class VarificationOtp2 extends AppCompatActivity {
                                         {
                                             Intent intent=new Intent(getApplicationContext(),dashbord.class);
                                             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                                            intent.putExtra("mobile",mobile);
                                             startActivity(intent);
+
                                         }
                                         else {
                                             Toast.makeText(VarificationOtp2.this,"Enter the correct OTP",Toast.LENGTH_SHORT).show();
